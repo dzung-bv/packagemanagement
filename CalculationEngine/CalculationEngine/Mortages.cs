@@ -15,7 +15,7 @@ namespace CalculationEngine
             var maximum = 4.2 * yearIncome;
             if (maximum > homeValue)
             {
-                maximum = homeValue * 1.8;
+                maximum = homeValue * 1.6;
              }
             return maximum;
         }
